@@ -10,6 +10,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            //thnks for u 
+
             //int xx = 10;
             //double ss = 3.43;
             //double zz = xx % ss ;

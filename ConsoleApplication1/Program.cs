@@ -10,8 +10,18 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            
 
+            float mf = float.MinValue;
+            float maxf = float.MaxValue;
+            
+            Console.WriteLine("float min val =  {0}, float max val = {1}",mf,maxf);
+            Console.WriteLine("double min val = " + double.MinValue + " " + " double max val" +  double.MaxValue);
+            Console.WriteLine("decimal min val = " + decimal.MinValue + " " + " decimal max val" + decimal.MaxValue);
+
+            float fvar = 1f / 3;
+            double dvar = 1d / 3;
+            decimal mvar = 1m / 3;
+            Console.Write(" float = {0},\n double = {1},\n decimal = {2} \n",fvar,dvar,mvar);
             //int xx = 10;
             //double ss = 3.43;
             //double zz = xx % ss ;
@@ -226,21 +236,21 @@ namespace ConsoleApplication1
             //    Console.WriteLine(e);
             //}
 
-            string[,] color = new string[4, 3];
-            color[0, 0] = "blue";
-            color[0, 1] = "red";
-            color[0, 2] = "green";
+            //string[,] color = new string[4, 3];
+            //color[0, 0] = "blue";
+            //color[0, 1] = "red";
+            //color[0, 2] = "green";
 
-            color[1, 0] = "yellow";
-            color[1, 1] = "light";
-            color[1, 2] = "black";
+            //color[1, 0] = "yellow";
+            //color[1, 1] = "light";
+            //color[1, 2] = "black";
 
-            color[2, 0] = "orange";
-            color[2, 1] = "white";
-            color[2, 2] = "yellow and black";
-            foreach (string x in color) {
-                Console.WriteLine(x);
-            }
+            //color[2, 0] = "orange";
+            //color[2, 1] = "white";
+            //color[2, 2] = "yellow and black";
+            //foreach (string x in color) {
+            //    Console.WriteLine(x);
+            //}
 
             //for (int x=1;x <= 10; x++) {
             //    for (int y=1;y <= 10;y++) {
